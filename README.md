@@ -32,4 +32,4 @@ this is where packages used by the apps stay. these things aren't to be released
 
 ### utils
 
-this is infra/deployment/quality tooling live and is written
+this is infra/deployment/quality tooling live and is written. right now it features a simple node wrapper and use case.
