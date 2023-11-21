@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "yarn workspaces foreach -Apiv run lint",
     "lint-fix": "yarn workspaces foreach -Apiv run lint-fix",
-    "build-types": "yarn workspaces foreach -Rpiv run build-types",
+    "build-types": "yarn workspaces foreach -Apiv run build-types",
     "bundle": "yarn workspaces foreach -Apiv run build-bundle",
     "dev": "yarn workspaces foreach -Apiv run dev"
   },
