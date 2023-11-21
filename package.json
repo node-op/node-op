@@ -1,0 +1,19 @@
+{
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "typescript": "5.2.2"
+  },
+  "workspaces": [
+    "apps/*",
+    "shared/*",
+    "utils/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces foreach -Apiv run lint",
+    "lint-fix": "yarn workspaces foreach -Apiv run lint-fix",
+    "build-types": "yarn workspaces foreach -Rpiv run build-types",
+    "bundle": "yarn workspaces foreach -Apiv run build-bundle",
+    "dev": "yarn workspaces foreach -Apiv run dev"
+  },
+  "private": true
+}
